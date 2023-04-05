@@ -1,0 +1,12 @@
+/*responsive*/
+@media (max-width: 992px) {
+  #job-info .container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .tab-col {
+    flex-direction: column;
+  }
+  .bgrcblue {
+    max-height: 30px;
+  }
+}

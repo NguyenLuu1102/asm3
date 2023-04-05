@@ -1,0 +1,29 @@
+@media (max-width: 576px) {
+  #about .d-flex {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  #target,
+  #personal-info {
+    width: 100%;
+  }
+  #job-info .container {
+    grid-template-columns: 1fr;
+  }
+
+  #certificate .grid {
+    grid-template-columns: 1fr;
+    gap: 4rem;
+  }
+
+  #certificate * > :nth-child(3) {
+    border-bottom: 2px solid #ffc107;
+  }
+  .bd-right {
+    border-right: none;
+  }
+  .tab-col {
+    flex-direction: unset;
+  }
+}
